@@ -16,51 +16,51 @@ Detailed risk analysis of the generated findings at individual service and resou
 1. Login to [https://console.tevi.co](https://console.tevi.co)  
 2. Click **Dashboard** on the navigation bar on the left. On the right side of the page, there are four tabs each for Cost, Security, Reliability & Inventory.
 
-![][image116]
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/2.1.png)
 
 3. Click **Security.**
 
-**![][image117]**
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/3.1.png)
 
 4. In the **Assessments** sub-section, click **Explore Reports.**
 
-**![][image118]**
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/4.1.png)
 
 5. Click **Generate** under Standard Security Assessment.
 
-![][image119]
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/5.1.png)
 
 6. Select the **Region** from the drop-down list to run the Standard Security Assessment based on where the existing workload is. You can select one region at a time for a single Standard Security Assessment.
 
-![][image120]
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/6.1.png)
 
-![][image121]
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/6.2.jpg)
 
 7. When the user clicks on **Open AWS Config**, they will receive details about the AWS pricing for the Config service and guidance on setting up a budget for it. Users can either set up a budget by selecting **Set Budget Now** or proceed without setting up any budget.
 
-![][image122]
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/7.1.jpg)
 
 8. Open a new tab and navigate to the AWS Management Console's Setup AWS Config page. Keep the default settings unchanged and click **Next** to proceed to **Step 2: Rules** page.
 
-![][image123]
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/8.1.png)
 
-![][image124]
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/8.2.png)
 
 9. There is no need to select any specific rule before clicking **Next**. The user will then be taken to **Step 3: Review.**
 
-**![][image125]**
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/9.1.png)
 
-**![][image126]**
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/9.2.png)
 
 10. Click **Confirm** to enable AWS Config. The **AWS Config Enabled** status will now be visible on Tevico as well.
 
-![][image127]
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/10.1.png)
 
-![][image128]
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/10.2.jpg)
 
 11. Click **Generate Report**. Tevico will initiate the assessment in your account. This assessment typically takes around 5-6 hours to complete, after which the data will begin to appear on the dashboard.
 
-![][image129]
+![Enable Standard Security Assessment](images/Security%20Assessments/Enable%20Standard%20Security%20Assessment/11.1.jpg)
 
 ![][image130]
 
@@ -94,19 +94,19 @@ Detailed risk analysis of the generated findings at individual service and resou
 
 6. Fill in the necessary fields:
 
-   1. Select the **Region(s)** based on where the workload is.
+   a. Select the **Region(s)** based on where the workload is.
 
 ![][image138]
 
-2. Select **Compliance** from the drop-down list.
+b. Select **Compliance** from the drop-down list.
 
 ![][image139]
 
-3. Select the **S3 Bucket** in which the assessment findings are to be stored.
+c. Select the **S3 Bucket** in which the assessment findings are to be stored.
 
 ![][image140]
 
-4. Copy the S3 bucket policy visible in Tevico. It is required to attach this policy to the S3 bucket where the assessment findings are to be stored.  
+d. Copy the S3 bucket policy visible in Tevico. It is required to attach this policy to the S3 bucket where the assessment findings are to be stored.  
    
 
 ![][image141]
@@ -116,24 +116,24 @@ Detailed risk analysis of the generated findings at individual service and resou
 | {            "Version": "2012-10-17",            "Statement": \[              {                "Sid": "AllowPutObject",                "Effect": "Allow",                "Principal": {                  "AWS": arn:aws:iam::\<AWS-Account-ID\>:role/\<role-name\>                },                "Action": \[                  "s3:PutObject",                  "s3:PutObjectAcl"                \],                "Resource": \[                  "arn:aws:s3:::",                  "arn:aws:s3:::/\*"                \]              },              {                "Sid": "ReadBucketPermission",                "Effect": "Allow",                "Principal": {                  "AWS": "arn:aws:iam::956059115090:root"                },                "Action": \[                  "s3:GetObject",                  "s3:ListBucket",                  "s3:GetBucketLocation"                \],                "Resource": \[                  "arn:aws:s3:::",                  "arn:aws:s3:::/\*"                \]              }            \]          } |
 | :---- |
 
-5. To attach required S3 bucket policy, login to AWS Management Console and open S3. For the required S3 bucket, go to the **Permissions** tab.  
+e. To attach required S3 bucket policy, login to AWS Management Console and open S3. For the required S3 bucket, go to the **Permissions** tab.  
    
 
 ![][image142]
 
 ![][image143]
 
-6. In the Bucket Policy section, click on the **Edit** button and paste the given bucket policy statement.
+f. In the Bucket Policy section, click on the **Edit** button and paste the given bucket policy statement.
 
 ![][image144]
 
-7. After pasting the policy, click the **Save** button.
+g. After pasting the policy, click the **Save** button.
 
 ![][image145]
 
 ![][image146]
 
-8. Go back to Tevico. Confirm the changes by ensuring that all status checks are passing and click **Submit.**
+h. Go back to Tevico. Confirm the changes by ensuring that all status checks are passing and click **Submit.**
 
 ![][image147]
 
