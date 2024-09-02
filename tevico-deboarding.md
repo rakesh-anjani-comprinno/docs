@@ -12,27 +12,31 @@ If a user wants to unsubscribe from Tevico, the steps given below are to be foll
 
 2. Search for **Tevico** in the **Manage Subscriptions** section and click **Manage**.
 
-![][image318]
+![Unsubscribe from AWS Marketplace](images/Tevico%20Deboarding/Unsubscribe%20from%20AWS%20Marketplace/2.1.png)
 
-![][image319]
+![Unsubscribe from AWS Marketplace](images/Tevico%20Deboarding/Unsubscribe%20from%20AWS%20Marketplace/2.2.png)
 
 3. Click **Cancel Subscription** from the **Actions** drop-down.
 
-![][image320]
+![Unsubscribe from AWS Marketplace](images/Tevico%20Deboarding/Unsubscribe%20from%20AWS%20Marketplace/3.1.png)
 
-![][image321]
+![Unsubscribe from AWS Marketplace](images/Tevico%20Deboarding/Unsubscribe%20from%20AWS%20Marketplace/3.2.png)
 
 4. You will receive a **Subscription Cancellation** email on the registered email ID.
 
-![][image322]![][image323]
+![Unsubscribe from AWS Marketplace](images/Tevico%20Deboarding/Unsubscribe%20from%20AWS%20Marketplace/4.1.png)
 
-![][image324]  
-![][image325]
+![Unsubscribe from AWS Marketplace](images/Tevico%20Deboarding/Unsubscribe%20from%20AWS%20Marketplace/4.2.png)
+
+![Unsubscribe from AWS Marketplace](images/Tevico%20Deboarding/Unsubscribe%20from%20AWS%20Marketplace/4.3.png)
+
+![Unsubscribe from AWS Marketplace](images/Tevico%20Deboarding/Unsubscribe%20from%20AWS%20Marketplace/4.4.png)
 
 5. Once the platform is done cleaning up resources created by Tevico in your AWS account, you will receive a final email indicating completion of **Subscription Cancellation**.
 
-![][image326]  
-![][image327]
+![Unsubscribe from AWS Marketplace](images/Tevico%20Deboarding/Unsubscribe%20from%20AWS%20Marketplace/5.1.png)
+
+![Unsubscribe from AWS Marketplace](images/Tevico%20Deboarding/Unsubscribe%20from%20AWS%20Marketplace/5.2.png)
 
 6. After completing the steps above, you have unsubscribed from the Tevico AWS Marketplace subscription.  
      
@@ -46,23 +50,23 @@ The resources created in the AWS account during onboarding need to be removed. T
 
 1. Log in to the same AWS Account and open S3.
 
-![][image328]
+![Delete cross-account IAM role](images/Tevico%20Deboarding/Delete%20cross-account%20IAM%20role/1.1.png)
 
-![][image329]
+![Delete cross-account IAM role](images/Tevico%20Deboarding/Delete%20cross-account%20IAM%20role/1.2.png)
 
 2. **Empty** the respective S3 buckets. 
 
-![][image330]
+![Delete cross-account IAM role](images/Tevico%20Deboarding/Delete%20cross-account%20IAM%20role/2.1.png)
 
 3. Go to AWS CloudFormation. Select the Tevico stack and then click **Delete**.
 
-![][image331]
+![Delete cross-account IAM role](images/Tevico%20Deboarding/Delete%20cross-account%20IAM%20role/3.1.png)
 
-![][image332]
+![Delete cross-account IAM role](images/Tevico%20Deboarding/Delete%20cross-account%20IAM%20role/3.2.png)
 
 4. Wait until the stacks transition to DELETE\_COMPLETE without encountering any errors.
 
-![][image333]
+![Delete cross-account IAM role](images/Tevico%20Deboarding/Delete%20cross-account%20IAM%20role/4.1.png)
 
 5. After the stack transition completes, the resources are successfully deleted.
 
@@ -74,31 +78,31 @@ To close the Tevico account, follow the steps given below:
 
 1. Login to [https://console.tevi.co](https://console.tevi.co) using your Tevico credentials.
 
-![][image334]
+![Close Tevico Account](images/Tevico%20Deboarding/Close%20Tevico%20Account/1.1.png)
 
 2. Go to **Account Settings** and select **Close Account** from the sub-menu.
 
-![][image335]
+![Close Tevico Account](images/Tevico%20Deboarding/Close%20Tevico%20Account/2.1.png)
 
 3. Request an OTP for the account closure activity from the **Close Account** subsection on the **Account Settings** page.
 
-![][image336]
+![Close Tevico Account](images/Tevico%20Deboarding/Close%20Tevico%20Account/3.1.png)
 
-![][image337]
+![Close Tevico Account](images/Tevico%20Deboarding/Close%20Tevico%20Account/3.2.png)
 
 4. Enter the OTP received on your registered email and click **Submit**.
 
-**![][image338]**
+![Close Tevico Account](images/Tevico%20Deboarding/Close%20Tevico%20Account/4.1.png)
 
-**![][image339]**
+![Close Tevico Account](images/Tevico%20Deboarding/Close%20Tevico%20Account/4.2.png)
 
-**![][image340]**
+![Close Tevico Account](images/Tevico%20Deboarding/Close%20Tevico%20Account/4.3.png)
 
 5. Your Tevico account is closed successfully.
 
-![][image341]
+![Close Tevico Account](images/Tevico%20Deboarding/Close%20Tevico%20Account/5.1.png)
 
-![][image342]
+![Close Tevico Account](images/Tevico%20Deboarding/Close%20Tevico%20Account/5.2.png)
 
 
 

@@ -21,9 +21,9 @@ Efficient Risk Assessment and Remediation: Tevico simplifies the review and reme
 
 2. Go to the **Well-Architected** section shown in the navigation bar on the left.
 
-![][image278]
+![Create a Workload](images/Well-Architected/Create%20a%20Workload/2.1.png)
 
-![][image279]
+![Create a Workload](images/Well-Architected/Create%20a%20Workload/2.2.png)
 
 3. Click on **Create Workload** and enter the necessary details such as  
 * Workload Name  
@@ -33,16 +33,17 @@ Efficient Risk Assessment and Remediation: Tevico simplifies the review and reme
 
 4. Click **Next** to move to **Step 2** of the workload creation phase.
 
-![][image280]
-![][image281]
+![Create a Workload](images/Well-Architected/Create%20a%20Workload/4.1.png)
 
-**![][image282]**
+![Create a Workload](images/Well-Architected/Create%20a%20Workload/4.2.png)
+
+![Create a Workload](images/Well-Architected/Create%20a%20Workload/4.3.png)
 
 5. In **Step 2** of the Workload Creation phase, users can draw, upload, or add links to their **Application/Infrastructure Architecture Diagram**. Upon performing any of these actions click **Next.**
 
-![][image283]
+![Create a Workload](images/Well-Architected/Create%20a%20Workload/5.1.png)
 
-![][image284]
+![Create a Workload](images/Well-Architected/Create%20a%20Workload/5.2.png)
 
 6. Tevico offers several blueprints using which the review can be done. Blueprints are a set of questions that are to be answered depending on the type of review that the user wishes to conduct.   
    Eg. KYA- Know Your Architecture  
@@ -65,27 +66,27 @@ Efficient Risk Assessment and Remediation: Tevico simplifies the review and reme
      
    
 
-**![][image285]**
+![Create a Workload](images/Well-Architected/Create%20a%20Workload/6.1.png)
 
-**![][image286]**
+![Create a Workload](images/Well-Architected/Create%20a%20Workload/6.2.png)
 
-**![][image287]**
+![Create a Workload](images/Well-Architected/Create%20a%20Workload/6.3.png)
 
 7. Once the workload is created, click **Next** to place a request for assigning a Solutions Architect to the newly created workload.
 
-![][image288]
+![Create a Workload](images/Well-Architected/Create%20a%20Workload/7.1.png)
 
 8. When the Solutions Architect is assigned to the workload, the workload creation will be complete immediately.
 
-**![][image289]**
+![Create a Workload](images/Well-Architected/Create%20a%20Workload/8.1.png)
 
-![Alt text](images/Well-Architected/Create%20a%20Workload/8.2.png)
+![Create a Workload](images/Well-Architected/Create%20a%20Workload/8.2.png)
 
 ## Review a Workload 
 
 1. On the Workload Summary page, click **Start Review.** 
 
-**![][image291]**
+![Create a Workload](images/Well-Architected/Review%20a%20Workload/1.1.png)
 
 2. Enter the necessary details for the **Product Market Synergy:**  
    i) Industry Type  
@@ -120,7 +121,7 @@ Efficient Risk Assessment and Remediation: Tevico simplifies the review and reme
 
 ![Review a workload 2](images/Well-Architected/Review%20a%20Workload/5.2.png)
 
-![][image297]
+![Review a workload 2](images/Well-Architected/Review%20a%20Workload/5.3.png)
 
 6. Users can ask any queries or add notes on the **Queries & Notes** page. These queries can be addressed during the review process. Once noted, click **Save**.
 
@@ -175,7 +176,7 @@ Efficient Risk Assessment and Remediation: Tevico simplifies the review and reme
 
 2. After clicking on **Start Remediation** for security, the user will have to remediate the HRIs and MRIs that are generated.
 
-![][image311]
+![Remediate HRIs and MRIs from a Workload ](images/Well-Architected/remediate-hri-mris/2.1.png)
 
 3. Once the remediation is complete for all the pillars, click on **Request Approval.** Wait for the Solution Architect’s approval. 
 
